@@ -1,0 +1,44 @@
+import 'package:flutter/material.dart';
+
+class ViewPayments  extends statefulwidget {
+  
+
+  @override
+  _ViewPaymentsstate createstate() => _ViewPaymentsstate();
+}
+class _viewPaymentsstate extends state<HomeScreen> {
+TextEditingController? _textEditingController = TextEditingController();
+
+    @override
+    widget build(BuildContext context) {
+      return scaffold(
+appBar: AppBar(
+  title: TextField
+  controller: _textEditingController,
+  decoration: InputDecoration(
+    border: InputBorder.none,
+    errorBorder: InputBorder.none,
+    enabledBorder: InputBorder.none,
+    focusedBorder: InputBorder.none, 
+  ),
+
+  ),
+      ),
+    body: ListView.builder(
+      itemCount: 15,
+      itemBuilder: (context,index){
+        return Row(
+          children: [
+            CircleAvatar(
+              child: Icon(Icons.)
+            )
+          ]
+        )
+      }
+    )  
+    }
+  }
+}
+  
+}
+      

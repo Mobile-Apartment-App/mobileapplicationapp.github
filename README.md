@@ -16,12 +16,12 @@ https://fluttertutorial.net/s/flutter_login_ui_yt
 <img src="https://github.com/FlutterTutorialNet/flutter_login_ui/raw/main/assets/images/Screenshot/flutter-login-registration-profile-password-verification-ui-design.jpg"> 
 
 ## App UI
-1. Splash Screen
+1. Home Screen
 2. Login Form
 3. Registration Form
 4. Profile Page
 5. Forgot Password
-6. OTP Verification Page
+6. Dashboard
 
   
 ## Resources
